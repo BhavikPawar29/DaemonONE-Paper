@@ -1,0 +1,23 @@
+# LaTeX auxiliary files
+*.aux
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+
+# Temporary files
+*.tmp
+*~
+.~lock.*
+
+# Editor settings
+.vscode/
+.idea/
+# Generated bibliography file
+*.bbl
