@@ -12,6 +12,7 @@
 \usepackage{array}
 \usepackage{url}
 \usepackage[hidelinks]{hyperref}
+\raggedbottom
 \usepackage[nameinlink,noabbrev]{cleveref}
 
 \setlength{\columnseprule}{0pt}
@@ -271,11 +272,9 @@ Personal computing environments increasingly include laptops, desktop computers,
 The proposed architecture provides a basis for coordinating development resources across personal devices, but it has not yet been empirically evaluated for performance, usability, or efficiency. Future work will implement DaemonONE across diverse devices and measure resource-discovery and metadata-synchronization overhead, task-execution latency, monitoring accuracy, and usability. Further work may address stronger execution security policies, conflict resolution during disconnection and reconnection synchronization, discovery of relationships between development services, and resource-aware task scheduling.
 
 
-\clearpage % Flush pending figures and tables before the reference list.
+\clearpage 
 \begin{thebibliography}{25}
-	
 \bibitem{ref1} M. Simi\'{c}, J. Dedei\'{c}, M. Stojkov, and I. Proki\'{c}, ``Data overlay mesh in distributed clouds allowing collaborative applications,'' \emph{IEEE Access}, vol. 13, pp. 6180--6203, 2025, \doi{10.1109/ACCESS.2024.3525336}.
-	
 \bibitem{ref2} M. Kleppmann, A. Wiggins, P. van Hardenberg, and M. McGranaghan, ``Local-first software: You own your data, in spite of the cloud,'' in \emph{Proc. ACM SIGPLAN Int. Symp. New Ideas, New Paradigms, and Reflections on Programming and Software (Onward! '19)}, 2019, pp. 154--178, \doi{10.1145/3359591.3359737}.
 	
 \bibitem{ref3} J. Haas, R. Mogk, E. Yanakieva, A. Bieniusa, and M. Mezini, ``LoRe: A programming model for verifiably safe local-first software,'' in \emph{Proc. 37th European Conf. Object-Oriented Programming (ECOOP 2023)}, LIPIcs, vol. 263, 2023, pp. 12:1--12:15, \doi{10.4230/LIPIcs.ECOOP.2023.12}.
